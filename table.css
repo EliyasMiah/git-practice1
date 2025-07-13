@@ -1,0 +1,8 @@
+td, th{
+    border: 2px solid darkgoldenrod;
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
+}

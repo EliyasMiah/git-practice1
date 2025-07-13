@@ -1,12 +1,37 @@
-h1{
-    color: red
-
+body{
+    margin:0 auto;
+    /* background-color: lightsalmon; */
+     width: 1270px;
 }
-.test1{
-    background-color: tomato;
+nav ul{
+    display:flex;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
     color: black;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
-    
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 1.25rem;
+    gap: 40px;
+}
+.hero-container img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.hero-container button{
+    background-color: rgb(109, 139, 0);
+    padding: 5px 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
 }
